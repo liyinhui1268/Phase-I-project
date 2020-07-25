@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>点击图片播放视频</title>
+<link rel="stylesheet" href="css/style.css">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport">
+<style>
+body{background:#000;}
+html{font-size:100px;font-family:"微软雅黑"}
+img{width:100%;vertical-align: middle}
+.videobtn,.videocont{width:6rem;margin:0.5rem 0 0 0.75rem;}
+.btn{width:5rem;height:0.9rem;text-align:center;line-height:0.9rem;font-size:0.3rem;border-radius:1rem;background:#E49E3F;color:#fff; margin: 1.25rem 0 1rem 1.25rem;}
+.videocont{display:none;}
+video{width:100%;}
+</style>
+</head>
+<body>
+<img class="bg" src="images/dumu.png" alt="">
+<img class="videobtn" src="images/videobg.png" alt="">
+<div class="videocont">
+<video class="video" controls="controls" src="https://api.cnlive.com/open/api2/vod_ips/vodplayByH5?appId=117_itdq3xbv08&vId=ced9f948a2524776911037044064cef6&isHLS=0"></video>
+</div>
+<a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.cnlive.goldenline"><div class="btn">观看整片</div></a>
+<script src="js/jquery.min.js"></script>
+<script src="js/resize.js"></script>
+<script>
+$('.videobtn').click(function(){
+$(this).hide();
+$('.videocont').show();
+var Video = document.getElementsByClassName('video')[0];
+Video.play();
+})
+</script>
+</body>
+</html>

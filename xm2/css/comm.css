@@ -1,0 +1,27 @@
+.font_small{
+	font-size:12px;
+}
+
+.font_mid{
+	font-size:24px;
+}
+.font_gw{
+	font-size:18px ;
+}
+#foot_bg{
+	width: 100%!important;
+	background-color: #333333!important;
+}
+#foot{
+	background-color: #333333;
+}
+#foot p{
+	padding: 0;margin: 0;
+}
+.foot_hr{
+	width: 80%;
+	border-color: #fff;
+}
+.foot_p p{
+	font-size: 12px;
+}
