@@ -5,36 +5,125 @@
 .xk_img{
 	width: 341px; 
 	height: 341px;
-	overflow: hidden;
-	
-	
+	overflow: hidden;	
 }
-.ppgs_img1{
+ .ppgs_img{
 	transition:1.5s;
 }
-.ppgs_img1:hover{
-transform:scale(1.2) ;
+.ppgs_img:hover{
+transform:scale(1.1) ;
+}
 
+.my_banner{
+	width:1920px ;
+	height:500px ;
+	background-image: url(../img/floor/banner.jpg);
+	background-size: cover;
 }
-.ppgs_img2{
-	width: 341px;
-	height: 341px;
-	background-image: url(../img/floor/ppgs2.png);	
+.banner_text1{
+	color: rgb(255,255,255);
+	font-family:微软雅黑;
+	font-size: 36px;
+	line-height: 60px;
+	margin: 0;padding: 0;
 }
-.ppgs_img2:hover .text_img2{
-	display: block!important;
+.banner_text2{
+	color: rgb(255,255,255);
+	font-family: 微软雅黑;
+	font-size: 26px;
+	margin: 0;padding: 0;
+	line-height: 60px;
 }
-.ppgs_img3{
-	width: 341px;
-	height: 341px;
-	background-image: url(../img/floor/ppgs3.png);
+.banner_text3{
+	color: rgb(255,255,255);
+	font-family: 微软雅黑;
+	font-size: 34px;
+	margin: 0;padding: 0;
+	line-height: 60px;
 }
-.text_img3{
-	height: 341px;
-	width: 341px;
+.banner_text4{
+		color: rgb(255,255,255);
+		font-family:方正舒体;
+		font-size: 24px;
+		margin: 0;padding: 0;
+		line-height: 60px;
+}
+#banner{
+	margin:220px 0px 0px 180px ;
+}
+.Company1{
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(89,87,87);
+	margin: 0;padding: 0;
+	line-height: 1.5;
+}
+.Company2{
+	color: rgb(89,87,87);
+	font-size: 18px;
+	margin: 0;padding: 0;
+	line-height: 40px;
+}
+.gsjs_img1{
+	width: 350px;
+	height: 268px;
+	border-radius: 60px;
+	background-image: url(../img/floor/foot1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text_img1{
+	height:268px;
+	width:350px;
+	border-radius: 60px;
 	background-color: rgba(0,0,0,0.5);
 }
-.ppgs_img3:hover .text_img3{
+
+.gsjs_img1:hover .text_img1{
 	display: block!important;
 }
+.my_line{
+	line-height: 230px;
+}
+.gsjs_img2{
+	width: 350px;
+	height: 268px;
+	border-radius: 60px;
+	background-image: url(../img/floor/foot2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text_img2{
+	height:268px;
+	width:350px;
+	border-radius: 60px;
+	background-color: rgba(0,0,0,0.5);
+}
 
+.gsjs_img2:hover .text_img2{
+	display: block!important;
+}
+.my_line{
+	line-height: 230px;
+}
+.gsjs_img3{
+	width: 350px;
+	height: 268px;
+	border-radius: 60px;
+	background-image: url(../img/floor/foot3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text_img3{
+	height:268px;
+	width:350px;
+	border-radius: 60px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.gsjs_img3:hover .text_img3{
+	display: block!important;
+}
+.my_line{
+	line-height: 230px;
+}
