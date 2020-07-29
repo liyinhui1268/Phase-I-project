@@ -15,8 +15,6 @@ transform:scale(1.1) ;
 }
 
 .my_banner{
-	width:1920px ;
-	height:500px ;
 	background-image: url(../img/floor/banner.jpg);
 	background-size: cover;
 }
@@ -126,4 +124,11 @@ transform:scale(1.1) ;
 }
 .my_line{
 	line-height: 230px;
+}
+#foot{
+	background-color: #1B1B1B;
+}
+#foot_hr{
+	width: 80%;
+	background-color:#434343;
 }
